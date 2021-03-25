@@ -13,7 +13,7 @@ public class DataBaseConfig {
         logger.info("Create DB connection");
         Class.forName("com.mysql.cj.jdbc.Driver");
         return DriverManager.getConnection(
-                "jdbc:mysql://localhost:3306/prod","root","EAGLEeye#101");
+                "jdbc:mysql://localhost:3306/prod2","root","EAGLEeye#101");
     }
 
     public void closeConnection(Connection con){
